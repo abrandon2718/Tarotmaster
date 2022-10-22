@@ -1,0 +1,57 @@
+{
+  "title": "Tarotmaster",
+  "description": "Containing all features of the Tarotmaster Class",
+  "version": "1.0",
+  "packs": [
+    {
+      "name": "items",
+      "label": "Tarotmaster Features and Spells",
+      "path": "packs/items.db",
+      "type": "Item",
+      "private": false,
+      "system": "pf2e",
+      "flags": {}
+    },
+	{
+      "name": "rolltables",
+      "label": "Tarotmaster Rolltable",
+      "path": "packs/rolltables.db",
+      "type": "RollTable",
+      "private": false,
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "Symbiote": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "tarotmaster": "Tarotmaster"
+        }
+      }
+    }
+  },
+  "url": "https://github.com/abrandon2718/Tarotmaster",
+  "manifest": "https://raw.githubusercontent.com/abrandon2718/Tarotmaster/master/module.json",
+  "download": "https://github.com/abrandon2718/Tarotmaster/archive/refs/heads/main.zip",
+  "id": "Tarotmaster",
+  "authors": [
+    {
+      "name": "Aaron Brandon",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  }
+}
