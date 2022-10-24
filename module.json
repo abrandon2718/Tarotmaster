@@ -2,7 +2,7 @@
   "name": "Tarotmaster",
   "title": "Tarotmaster",
   "description": "Containing all features of the Tarotmaster Class",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion":"10",
   "packs": [
