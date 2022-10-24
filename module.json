@@ -2,7 +2,9 @@
   "name": "Tarotmaster",
   "title": "Tarotmaster",
   "description": "Containing all features of the Tarotmaster Class",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion":"10",
   "packs": [
     {
       "name": "items",
@@ -11,7 +13,8 @@
       "type": "Item",
       "private": false,
       "system": "pf2e",
-      "flags": {}
+      "flags": {},
+      "module": "Tarotmaster"
     },
 	{
       "name": "rolltables",
