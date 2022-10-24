@@ -14,7 +14,7 @@
       "private": false,
       "system": "pf2e",
       "flags": {},
-      "module": "Tarotmaster"
+      "package": "Tarotmaster"
     },
 	{
       "name": "rolltables",
@@ -23,7 +23,8 @@
       "type": "RollTable",
       "private": false,
       "system": "pf2e",
-      "flags": {}
+      "flags": {},
+      "package": "Tarotmaster"
     }
   ],
   "flags": {
@@ -50,7 +51,9 @@
       {
         "id": "pf2e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+	    "minimum": "4"
+	}
       }
     ]
   },
